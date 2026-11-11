@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">lulouislu</title>
-  <desc id="desc">Personal tech profile. AI Tools, AEO, Automation.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Luis · 把 AI 用在具体问题上</title>
+  <desc id="desc">深绿色横幅，右侧用几何方块表现从想法到工具的过程。</desc>
   <defs>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#23364b"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#102B2A"/><stop offset="1" stop-color="#183C37"/></linearGradient>
+    <linearGradient id="tile" x1="890" y1="75" x2="1090" y2="260" gradientUnits="userSpaceOnUse"><stop stop-color="#B9E4CA"/><stop offset="1" stop-color="#65AA8E"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#CDE9DC" stroke-opacity=".045"/></pattern>
   </defs>
-  <rect width="1200" height="320" rx="18" fill="#101c2c"/>
-  <path d="M640 0h542a18 18 0 0 1 18 18v284a18 18 0 0 1-18 18H640z" fill="url(#grid)"/>
-  <rect x="54" y="50" width="30" height="4" rx="2" fill="#8ee6c2"/>
-  <text x="98" y="58" fill="#b8c8d8" font-family="Consolas,Menlo,monospace" font-size="15" letter-spacing="2">PERSONAL TECH PROFILE</text>
-  <text x="50" y="168" fill="#f4f7fb" font-family="Segoe UI,Arial,sans-serif" font-size="82" font-weight="650" letter-spacing="-3">lulouislu</text>
-  <text x="55" y="220" fill="#8ee6c2" font-family="Consolas,Menlo,monospace" font-size="19" letter-spacing="1">AI TOOLS  /  AEO  /  AUTOMATION</text>
-  <path d="M55 266h1090" stroke="#304155" stroke-width="1"/>
-  <text x="55" y="294" fill="#9bacc0" font-family="Consolas,Menlo,monospace" font-size="12" letter-spacing="1.2">OPEN-SOURCE EXPLORATION</text>
-  <g fill="none" stroke="#314a60" stroke-width="1.5">
-    <rect x="846" y="77" width="218" height="132" rx="12"/>
-    <path d="M866 77V57h218v132h-20"/>
-    <path d="M846 116h218M866 141h84M866 159h132M866 177h104"/>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <path d="M52 54H86" stroke="#B9E4CA" stroke-width="3"/>
+  <text x="101" y="60" fill="#C9E6D9" font-size="15" font-family="Segoe UI,Arial,sans-serif" letter-spacing="3">LUIS / LULOUISLU</text>
+  <text x="52" y="151" fill="#F4F5ED" font-size="48" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">把 AI 用在具体问题上</text>
+  <text x="55" y="202" fill="#BBD1C8" font-size="20" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">AI 工具 · 实用自动化 · AEO</text>
+  <text x="55" y="271" fill="#86AEA0" font-size="14" font-family="Segoe UI,Arial,sans-serif" letter-spacing="1.5">EXPLORE. BUILD. MAKE IT USEFUL.</text>
+  <g transform="translate(888 48)">
+    <rect x="0" y="0" width="72" height="72" rx="12" stroke="#B9E4CA" stroke-opacity=".28"/>
+    <rect x="90" y="0" width="72" height="72" rx="12" stroke="#B9E4CA" stroke-opacity=".28"/>
+    <rect x="0" y="90" width="72" height="72" rx="12" stroke="#B9E4CA" stroke-opacity=".28"/>
+    <rect x="90" y="90" width="124" height="124" rx="18" fill="url(#tile)"/>
+    <path d="M127 153H177M153 127L179 153L153 179" stroke="#183C37" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="36" cy="36" r="4" fill="#B9E4CA"/>
+    <path d="M115 36H137M126 25V47M24 115L48 139M48 115L24 139" stroke="#B9E4CA" stroke-width="2" stroke-linecap="round"/>
   </g>
-  <g fill="#8ee6c2"><circle cx="866" cy="97" r="3"/><circle cx="879" cy="97" r="3" opacity=".55"/><circle cx="892" cy="97" r="3" opacity=".25"/></g>
-  <path d="m1000 155 12 11-12 11m22 0h15" fill="none" stroke="#8ee6c2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="1145" y="294" text-anchor="end" fill="#9bacc0" font-family="Consolas,Menlo,monospace" font-size="12" letter-spacing="1.2">@LULOUISLU</text>
 </svg>
