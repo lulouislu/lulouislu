@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg?v=20261111" width="100%" alt="Luis · 把 AI 用在具体问题上" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Luis · 把 AI 用在具体问题上" />
 </p>
 
 # 你好，我是 Luis 👋
